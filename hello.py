@@ -64,7 +64,7 @@ print(7%3) #나머지를 구하는 연산자
 #print("=" * 30)
 
 #문자열 인덱싱과 슬라이싱
-a = "Life is too short, You need Python"
+# a = "Life is too short, You need Python"
     #1234
 
 #print(a[3])
@@ -178,8 +178,8 @@ a = "Life is too short, You need Python"
 # print(a.index("t")) #첫번째 나오는 t의 인덱스 값(8) 단, 문자가 없으면 오류 발생
 # print(a.index("z")) #"z"는 존재하지 않는 문자이기 때문에 에러 발생
 
-a = ",".join("abcd")
-print(a) #a,b,c,d
+# a = ",".join("abcd")
+# print(a) #a,b,c,d
 
 # lower()
 # upper()
@@ -187,9 +187,107 @@ print(a) #a,b,c,d
 # rstrip()
 # strip()
 
-a = "Life is too short"
-print(a.replace("Life","Your leg")) # Your leg is too short
-print(a.split()) #['Life','is','too','short']
+# a = "Life is too short"
+# print(a.replace("Life","Your leg")) # Your leg is too short
+# print(a.split()) #['Life','is','too','short']
 
-b = "a:b:c:d"
-print(b.split(":")) #['a','b','c','d']
+# b = "a:b:c:d"
+# print(b.split(":")) #['a','b','c','d']
+
+
+#리스트 자료형
+# odd = [1,3,5,7,9]
+
+# a = []  # a = list()
+# b = [1,2,3] #
+# c = ["Life",'is']
+# d = [1,2,"Life"]
+# e = [1,2,['Life','is']]
+
+# a = [1,2,3,4,5]
+
+# print(a[0:2])
+# print(a[:2])
+# print(a[2:])
+
+# print(a[0]+a[1])
+# print(a[-1])
+
+# a = [1,2,3,['a','b','c']]
+
+# print(a[0]) #1
+# print(a[-1]) #['a','b','c']
+# print(a[3]) #['a','b','c']
+# print(a[3][0]) #a
+# print(a[-1][-3]) #a
+# print(a[-1][0]) #a
+# print(a[-1][1]) #b
+# print(a[3][2]) #a
+
+# a = [1,2,['a','b',['Life','is']]]
+# print(a[2][2][0])
+
+# a = [1,2,3]
+# b = [4,5,6]
+# c = a + b  #[1,2,3,4,5,6]
+# print(a + b) # [1,2,3,4,5,6]
+# print("="*30)
+# print(c) #[1,2,3,4,5,6]
+# # print(a * b) #error
+
+# print(a * 3) #1,2,3,1,2,3,1,2,3
+# print(len(a)) #길이값(3)
+
+# # print(a[2]+"hi") #error
+# print(str(a[2])+"hi") #3hi
+
+# a = [1,2,3] #[1,2,3]
+# a[2] = 4 #[1,2,4]
+# print(a) #[1,2,4]
+
+# del a[1] #[1,4]
+# print(a)
+
+# a = [1,2,3,4,5]
+# del a[2:] #[3,4,5]삭제
+# print(a) #[1,2]
+
+# a = [1,2,3] #a[1,2,3]
+# a.append(4) #a[1,2,3,4]
+# print(a) #a[1,2,3,4]
+# a.append([5,6]) #a[1,2,3,4, [5,6]]
+# print(a) #a[1,2,3,4, [5,6]]
+
+# a = [1,4,6,3]
+# a.sort()
+# print(a)
+
+
+# a = ['a','z','k']
+# a.sort() 
+# print(a)
+
+# a = ['a','z','k']
+# a.reverse()
+# print(a)
+
+# a = ['a','z','k']
+# print(a.index('a'))
+# # print(a.find('a')) #error
+# a = [1,2,3]
+# a.insert(0,4)
+# print(a)
+
+# a = [1,2,3,1,2,3]
+# a.remove(3) #a[1,2,1,2,3] 첫번째 3 삭제
+# print(a)
+# a.remove(3) #a[1,2,1,2]두번째 3 삭제
+# print(a) #[1,2,1,2]
+
+a = [1,2,3]
+a.pop()
+print(a)
+
+a = [1,2,3]
+a.pop(1) #삭제하고싶은 index번호 지정
+print(a)
