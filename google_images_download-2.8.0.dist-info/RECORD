@@ -1,0 +1,16 @@
+../../Scripts/googleimagesdownload.exe,sha256=UZMdwstzOib2T9vXyNW-a9WcNro6dYXAkPDoGXV6iLM,106369
+google_images_download-2.8.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+google_images_download-2.8.0.dist-info/Licence.txt,sha256=kPExS03KAtSneoPIPxS5V45oNdcPGw5LfAAd6aD28zQ,1104
+google_images_download-2.8.0.dist-info/METADATA,sha256=eq_w8eUnXl4k1yRd6idkZ8g6TFQR_WokoyY9jdZFq34,2399
+google_images_download-2.8.0.dist-info/RECORD,,
+google_images_download-2.8.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_images_download-2.8.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+google_images_download-2.8.0.dist-info/direct_url.json,sha256=kpdEp3cr8mXGRRxIP30N30vwpzOVF2jGceDxXBpPdd8,153
+google_images_download-2.8.0.dist-info/entry_points.txt,sha256=hvWlwK3_tkyBWOzjn13zz4m7InTWmKYySgzaI5wY7jg,93
+google_images_download-2.8.0.dist-info/top_level.txt,sha256=tcW3OuD9sNp58J-oSLDM2cM3o9ALbYm_2FKy2nRuICg,23
+google_images_download/__init__.py,sha256=K3GU4-C863Ta6vdpt5kfyGuXpZc8luI28nZ7kEVJh5Q,180
+google_images_download/__main__.py,sha256=BTY4h2qn_f8YWamDBAd25Vtqx1rildUEa9mjtfuKhic,135
+google_images_download/__pycache__/__init__.cpython-39.pyc,,
+google_images_download/__pycache__/__main__.cpython-39.pyc,,
+google_images_download/__pycache__/google_images_download.cpython-39.pyc,,
+google_images_download/google_images_download.py,sha256=0rrZ5Ww1wZ-z0z8hiZwZLUtPfheJ9krQBnjt7EuKmXs,59294
